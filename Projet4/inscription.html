@@ -3,76 +3,124 @@
 	<head>
 		<title>Inscription d'un nouveau client - Méditerranée</title>
 	</head>
-<body>
+<body bgcolor="#FFDAB9">
 	<section>
 		<form action="inscription.php" method="post">
 
 			<h1>Inscription d'un Nouveau client</h1>
 
-			<table width=”70%” Border =”0">
+			<table border="0" width="50%" align="center">
 				<tr>
-					<td>Informations de Base</td>
-					<td>Compte</td>
-					<td>Données Complémentaires</td>
-					<td>Informations tierces du client</td>
+					<td>
+						<b>Nom:</b>
+					</td>
+					<td>
+						<input type="text" name="t1">
+					</td>
 				</tr>
-				
-				<td>
-					<label for="nom">Nom:</label>
-					<input type="text" id="nom" name="nom" required><br><br>
-
-					<label for="prenom">Prénom:</label>
-					<input type="text" id="prenom" name="prenom" required><br><br>
-
-					<label for="date_naissance">Date de naissance:</label>
-					<input type="date" id="date_naissance" name="date_naissance" required><br><br>
-				</td>
-
-				<td>
-					<label for="email">Email:</label>
-					<input type="email" id="email" name="email" required><br><br>
-
-					<label for="mdp">Mot de passe:</label>
-					<input type="password" id="mdp" name="mdp" required><br><br>
-				</td>
-
-				<td>
-					<label for="permis">Numéro de permis:</label>
-					<input type="text" id="permis" name="permis"><br><br>
-
-					<label for="anciennete">Nombre d'années d'ancienneté:</label>
-					<input type="number" id="anciennete" name="anciennete" min="0" max="80"><br><br>
-				</td>
-
-				<td>
-					<label for="ville">Ville:</label>
-					<select id="ville" name="ville" required>
-						<option value="paris">Paris</option>
-						<option value="lyon">Lyon</option>
-						<option value="versailles">Versailles</option>
-					</select>
-
-					<br><br>
-
-					<label for="adresse">Adresse du client:</label>
-					<textarea id="adresse" name="adresse" rows="4" cols="30"></textarea><br><br>
-
-					<p>Situation matrimoniale:</p>
-					<label for="marie_oui" >Marié(e)</label>
-					<input type="radio" id="marie_oui" name="marie" value="Oui">
-					<label for="marie_non">Célibataire</label>
-					<input type="radio" id="marie_non" name="marie" value="Non"><br><br>
-
-					<p>Préférence de voiture:</p>
-					<label for="pref_auto">Automatique</label>
-					<input type="checkbox" id="pref_auto" name="preference_auto" value="Automatique">
-					<label for="pref_manuelle">Manuelle</label>
-					<input type="checkbox" id="pref_manuelle" name="preference_manuelle" value="Manuelle"><br><br>
-				</td>
+				<tr>
+					<td>
+						<b>Prénom:</b>
+					</td>
+					<td>
+						<input type="text" name="t2">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Age</b>
+					</td>
+					<td>
+						<input type="date" name="d1">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Age</b>
+					</td>
+					<td>
+						<input type="number" name="a1">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Adresse mail</b>
+					</td>
+					<td>
+						<input type="email" name="e1">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Mot de passe</b>
+					</td>
+					<td>
+						<input type="password" name="p1">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Nombre année ancienneté</b>
+					</td>
+					<td>
+						<input type="number" name="a2">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Ville</b>
+					</td>
+					<td>
+						<select name="ville">
+							<option>Paris</option>
+							<option>Marseille</option>
+							<option> Lyon</option>
+							<option>Toulouse</option>
+							<option> Nice</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Adresse du client:</b>
+					</td>
+					<td>
+						<input type="text" name="t3">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Situation matrimoniale:</b>
+					</td>
+					<td>
+						Marié <input type="radio" name="situation" value="Marié">
+						Célibataire <input type="radio" name="situation" value="Célibataire">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Préférence de voiture:</b>
+					</td>
+					<td>
+						SUV <input type="radio" name="pref_voiture" value="SUV">
+						Voiture de ville <input type="radio" name="pref_voiture" value="Voiture de ville">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Commentaire:</b>
+					</td>
+					<td>
+						<textarea cols="20" rows="10" name="commentaire"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<input type="submit" value="Enregistrer" name="s1">
+    					<input type="reset" value="Annuler" name="a2">
+					</td>
+				</tr>
 			</table>
-			<br><br>
-				<button type="submit">Enregistrer</button>
-				<button type="reset">Annuler</button>
 		</form>
 	</section>
 
