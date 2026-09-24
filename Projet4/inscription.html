@@ -9,54 +9,70 @@
 
 			<h1>Inscription d'un Nouveau client</h1>
 
-			<label for="nom">Nom:</label>
-			<input type="text" id="nom" name="nom" required><br><br>
+			<table width=”70%” Border =”0">
+				<tr>
+					<td>Informations de Base</td>
+					<td>Votre compte</td>
+					<td>Données Personnelles</td>
+					<td>Informations du client</td>
+				</tr>
+				
+				<td>
+					<label for="nom">Nom:</label>
+					<input type="text" id="nom" name="nom" required><br><br>
 
-			<label for="prenom">Prénom:</label>
-			<input type="text" id="prenom" name="prenom" required><br><br>
+					<label for="prenom">Prénom:</label>
+					<input type="text" id="prenom" name="prenom" required><br><br>
 
-			<label for="date_naissance">Date de naissance:</label>
-			<input type="date" id="date_naissance" name="date_naissance" required><br><br>
+					<label for="date_naissance">Date de naissance:</label>
+					<input type="date" id="date_naissance" name="date_naissance" required><br><br>
+				</td>
 
-			<label for="email">Email:</label>
-			<input type="email" id="email" name="email" required><br><br>
+				<td>
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required><br><br>
 
-			<label for="mdp">Mot de passe:</label>
-			<input type="password" id="mdp" name="mdp" required><br><br>
+					<label for="mdp">Mot de passe:</label>
+					<input type="password" id="mdp" name="mdp" required><br><br>
+				</td>
 
-			<label for="permis">Numéro de permis:</label>
-			<input type="text" id="permis" name="permis"><br><br>
+				<td>
+					<label for="permis">Numéro de permis:</label>
+					<input type="text" id="permis" name="permis"><br><br>
 
-			<label for="anciennete">Nombre d'années d'ancienneté:</label>
-			<input type="number" id="anciennete" name="anciennete" min="0" max="80"><br><br>
+					<label for="anciennete">Nombre d'années d'ancienneté:</label>
+					<input type="number" id="anciennete" name="anciennete" min="0" max="80"><br><br>
+				</td>
 
-			<label for="ville">Ville:</label>
-			<select id="ville" name="ville" required>
-				<option value="paris">Paris</option>
-				<option value="lyon">Lyon</option>
-				<option value="versailles">Versailles</option>
-			</select>
+				<td>
+					<label for="ville">Ville:</label>
+					<select id="ville" name="ville" required>
+						<option value="paris">Paris</option>
+						<option value="lyon">Lyon</option>
+						<option value="versailles">Versailles</option>
+					</select>
 
+					<br><br>
+
+					<label for="adresse">Adresse du client:</label>
+					<textarea id="adresse" name="adresse" rows="4" cols="30"></textarea><br><br>
+
+					<p>Situation matrimoniale:</p>
+					<label for="marie_oui" >Marié(e)</label>
+					<input type="radio" id="marie_oui" name="marie" value="Oui">
+					<label for="marie_non">Célibataire</label>
+					<input type="radio" id="marie_non" name="marie" value="Non"><br><br>
+
+					<p>Préférence de voiture:</p>
+					<label for="pref_auto">Automatique</label>
+					<input type="checkbox" id="pref_auto" name="preference_auto" value="Automatique">
+					<label for="pref_manuelle">Manuelle</label>
+					<input type="checkbox" id="pref_manuelle" name="preference_manuelle" value="Manuelle"><br><br>
+				</td>
+			</table>
 			<br><br>
-
-			<label for="adresse">Adresse du client:</label>
-			<textarea id="adresse" name="adresse" rows="4" cols="30"></textarea><br><br>
-
-			<p>Situation matrimoniale:</p>
-			<label for="marie_oui" >Marié(e)</label>
-			<input type="radio" id="marie_oui" name="marie" value="Oui">
-			<label for="marie_non">Célibataire</label>
-			<input type="radio" id="marie_non" name="marie" value="Non"><br><br>
-
-			<p>Préférence de voiture:</p>
-			<label for="pref_auto">Automatique</label>
-			<input type="checkbox" id="pref_auto" name="preference_auto" value="Automatique">
-			<label for="pref_manuelle">Manuelle</label>
-			<input type="checkbox" id="pref_manuelle" name="preference_manuelle" value="Manuelle"><br><br>
-
-			<button type="submit">Enregistrer</button>
-			<button type="reset">Annuler</button>
-
+				<button type="submit">Enregistrer</button>
+				<button type="reset">Annuler</button>
 		</form>
 	</section>
 
