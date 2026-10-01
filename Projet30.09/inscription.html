@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Inscription d'un nouveau client - Méditerranée</title>
+	</head>
+<body bgcolor="#FFDAB9">
+	<section>
+		<form action="inscription.php" method="post">
+
+			<h1>Inscription d'un Nouveau client</h1>
+
+			<table border="0" width="50%" align="center">
+				<tr>
+					<td>
+						<b>Nom:</b>
+					</td>
+					<td>
+						<input type="text" name="t1">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Prénom:</b>
+					</td>
+					<td>
+						<input type="text" name="t2">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Date de naissance</b>
+					</td>
+					<td>
+						<input type="date" name="d1">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Age</b>
+					</td>
+					<td>
+						<input type="number" name="a1">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Adresse mail</b>
+					</td>
+					<td>
+						<input type="email" name="e1">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Mot de passe</b>
+					</td>
+					<td>
+						<input type="password" name="p1">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Nombre année ancienneté</b>
+					</td>
+					<td>
+						<input type="number" name="a2">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Ville</b>
+					</td>
+					<td>
+						<select name="ville">
+							<option>Paris</option>
+							<option>Marseille</option>
+							<option> Lyon</option>
+							<option>Toulouse</option>
+							<option> Nice</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Adresse du client:</b>
+					</td>
+					<td>
+						<input type="text" name="t3">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Situation matrimoniale:</b>
+					</td>
+					<td>
+						Marié <input type="radio" name="situation" value="Marié">
+						Célibataire <input type="radio" name="situation" value="Célibataire">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Préférence de voiture:</b>
+					</td>
+					<td>
+						SUV <input type="radio" name="pref_voiture" value="SUV">
+						Voiture de ville <input type="radio" name="pref_voiture" value="Voiture de ville">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Commentaire:</b>
+					</td>
+					<td>
+						<textarea cols="20" rows="10" name="commentaire"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<input type="submit" value="Enregistrer" name="s1">
+    					<input type="reset" value="Annuler" name="a2">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</section>
+
+	<footer>
+		<p>&copy; 2026 Agence Méditerranée - Location de voitures. Tous droits réservés.</p>
+	</footer>
+
+</body>
+</html>
