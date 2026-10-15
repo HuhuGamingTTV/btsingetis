@@ -44,6 +44,7 @@ body {
     height: auto;
     box-sizing: border-box;
     object-fit: contain;
+    border-radius: 15px;
 }
 
 .sec1 {
