@@ -1,0 +1,33 @@
+:root {
+    --jaune: rgb(255, 208, 0);
+    --bleu: rgb(0, 34, 255);
+    --rouge: rgba(255, 0, 0, 0.886);
+}
+
+body {
+    margin: auto;
+}
+
+.texte {
+    text-align: center;
+}
+
+.texte .title {
+    font-weight: 1000;
+}
+
+.drapeaujaune {
+    background-color: var(--jaune);
+    padding: 200px;
+}
+    
+.drapeaubleu {
+    background-color: var(--bleu);
+    padding: 90px;
+}
+
+.drapeaurouge {
+    background-color: var(--rouge);
+    padding: 90px;
+}
+
