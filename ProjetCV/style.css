@@ -1,11 +1,11 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    font-family: Calibri, "Segoe UI", Arial, sans-serif;
+    font-family: Calibri, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.4;
     color: #222;
@@ -14,8 +14,8 @@ body {
 }
 
 a {
-    color: #222;
     text-decoration: none;
+    color: #222;
 }
 
 a:hover {
@@ -23,53 +23,40 @@ a:hover {
 }
 
 .cv {
-    max-width: 800px;
-    margin: 0 auto;
     padding: 40px 50px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .header {
     display: flex;
+    gap: 20px;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
     margin-bottom: 25px;
 }
 
 .header-txt h1 {
-    font-family: Cambria, Georgia, serif;
+    font-family: Cambria, serif;
     font-size: 28px;
     margin-bottom: 5px;
 }
 
 .header-txt .espace {
-    margin-top: 15px;
+    margin-top: 16px;
 }
 
 .header-img img {
-    width: 160px;
-    height: 210px;
-    object-fit: cover;
+    width: 165px;
     display: block;
+    height: 205px;
+    object-fit: cover;
 }
 
 .section {
     margin-bottom: 20px;
-}
-
-.section h2 {
-    font-size: 16px;
-    font-style: italic;
-    color: #1f2a6b;
-    border-bottom: 1px solid #1f2a6b;
-    margin-bottom: 10px;
-}
-
-.entree {
-    display: flex;
-    margin-bottom: 12px;
 }
 
 .entree .date {
@@ -82,11 +69,23 @@ a:hover {
 }
 
 .entree .contenu {
-    flex: 1;
     text-align: justify;
+    flex: 1;
 }
 
 .entree .contenu h3 {
     font-size: 14px;
 }
 
+.section h2 {
+    font-size: 16px;
+    font-style: italic;
+    color: #1f2a6b;
+    border-bottom: 1.05px solid #1f2a6b;
+    margin-bottom: 10px;
+}
+
+.entree {
+    display: flex;
+    margin-bottom: 12px;
+}
