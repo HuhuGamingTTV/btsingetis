@@ -205,18 +205,3 @@ footer {
     font-size: .88rem;
     color: var(--muted);
 }
-
-@media (max-width: 600px) {
-    header { padding: 48px 0 40px; }
-    .hero {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
-    }
-    .avatar { width: 88px; height: 88px; }
-    .container { padding: 0 16px; }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    * { transition: none !important; }
-}
