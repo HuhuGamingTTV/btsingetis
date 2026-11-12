@@ -1,24 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio - Hugo CORBIN</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body bgcolor="pink">
-	<h1> CORBIN Hugo </h1>
+<body>
 
-<h1>Sommaire de mes projets</h1>
-<a href="./Projet1/sio.html">Projet 1</a> <BR>
-<a href="./Projet2/index.html">Projet 2</a> <BR>
-<a href="./Projet3/index.html">Projet 3</a> <BR>
-<a href="./Projet4/inscription.html">Projet 4</a> <BR>
-<a href="./Projet5/index.html">Projet 5</a> <BR>
-<a href="./Projet6/CORBIN-Hugo-01_TP_Comptes_et_Groupes_Locaux.pdf">Projet 6</a> <BR>
-<a href="./Projet7/index.html">Projet 7</a> <BR>
-<a href="./projet8/index.html">Projet 8</a> <BR>
-<a href="./P1_js/ex1_js.html">Projet 10</a> <BR>
-<a href="./Certif1/Certificat - CORBIN Hugo - 22102026.pdf">Certification 1</a> <BR>
-<a href="./ProjetCV/index.html">Projet CV</a> <BR>
-<a href="./Projet11/PROJET 11 - CORBIN Hugo.pdf">Projet 11</a> <BR>
+	<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+		<symbol id="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+			<path d="M7 17L17 7M8 7h9v9"/>
+		</symbol>
+	</svg>
+
+	<header>
+		<div class="container hero">
+			<img class="avatar" src="CORBIN-Hugo.jpeg" alt="Photo de Hugo CORBIN">
+			<div>
+				<h1>Hugo <span>CORBIN</span></h1>
+				<p class="subtitle">Sommaire de mes projets, travaux pratiques et certifications réalisés pendant ma formation.</p>
+			</div>
+		</div>
+	</header>
+
+	<main class="container pd1">
+
+		<section>
+			<h2 class="section-title">Développement web</h2>
+			<div class="grid">
+				<a class="card" href="./Projet1/sio.html" target="_blank" rel="noopener noreferrer">
+					<div class="card-top"><span class="tag web">HTML</span><svg class="arrow"><use href="#arrow"/></svg></div>
+					<h3>Projet 1</h3>
+					<p>Mon premier projet web : présentation du BTS SIO.</p>
+				</a>
+				<a class="card" href="./Projet2/index.html" target="_blank" rel="noopener noreferrer">
+					<div class="card-top"><span class="tag web">HTML</span><svg class="arrow"><use href="#arrow"/></svg></div>
+					<h3>Projet 2</h3>
+					<p>Liste d'articles de recettes japonaises.</p>
+				</a>
+				<a class="card" href="./Projet3/index.html" target="_blank" rel="noopener noreferrer">
+					<div class="card-top"><span class="tag web">HTML</span><svg class="arrow"><use href="#arrow"/></svg></div>
+					<h3>Projet 3</h3>
+					<p>Mise en page en plusieurs cadres avec des iframes.</p>
+				</a>
+				<a class="card" href="./Projet4/inscription.html" target="_blank" rel="noopener noreferrer">
+					<div class="card-top"><span class="tag web">HTML</span><svg class="arrow"><use href="#arrow"/></svg></div>
+					<h3>Projet 4</h3>
+					<p>Formulaire d'inscription d'un nouveau client.</p>
+				</a>
+				<a class="card" href="./Projet5/index.html" target="_blank" rel="noopener noreferrer">
+					<div class="card-top"><span class="tag web">HTML / CSS</span><svg class="arrow"><use href="#arrow"/></svg></div>
+					<h3>Projet 5</h3>
+					<p>Présentation d'agence et formulaires clients / voitures.</p>
+				</a>
+				<a class="card" href="./Projet7/index.html" target="_blank" rel="noopener noreferrer">
+					<div class="card-top"><span class="tag web">CSS</span><svg class="arrow"><use href="#arrow"/></svg></div>
+					<h3>Projet 7</h3>
+					<p>Exercices de mise en forme CSS du 8 octobre.</p>
+				</a>
+				<a class="card" href="./projet8/index.html" target="_blank" rel="noopener noreferrer">
+					<div class="card-top"><span class="tag web">HTML / CSS</span><svg class="arrow"><use href="#arrow"/></svg></div>
+					<h3>Projet 8</h3>
+					<p>AutoLoc Méditerranée : site de location de véhicules.</p>
+				</a>
+				<a class="card" href="./ProjetCV/index.html" target="_blank" rel="noopener noreferrer">
+					<div class="card-top"><span class="tag web">HTML / CSS</span><svg class="arrow"><use href="#arrow"/></svg></div>
+					<h3>Projet CV</h3>
+					<p>Mon CV en ligne : formation et expériences.</p>
+				</a>
+			</div>
+		</section>
+
+		<section>
+			<h2 class="section-title">JavaScript</h2>
+			<div class="grid">
+				<a class="card" href="./P1_js/ex1_js.html" target="_blank" rel="noopener noreferrer">
+					<div class="card-top"><span class="tag js">JS</span><svg class="arrow"><use href="#arrow"/></svg></div>
+					<h3>Projet 10</h3>
+					<p>Page interactive : TP des 5 boutons JavaScript.</p>
+				</a>
+			</div>
+		</section>
+
+		<section>
+			<h2 class="section-title">Documents &amp; TP</h2>
+			<div class="grid">
+				<a class="card" href="./Projet6/CORBIN-Hugo-01_TP_Comptes_et_Groupes_Locaux.pdf" target="_blank" rel="noopener noreferrer">
+					<div class="card-top"><span class="tag pdf">PDF</span><svg class="arrow"><use href="#arrow"/></svg></div>
+					<h3>Projet 6</h3>
+					<p>TP : comptes et groupes locaux.</p>
+				</a>
+				<a class="card" href="./Projet11/PROJET%2011%20-%20CORBIN%20Hugo.pdf" target="_blank" rel="noopener noreferrer">
+					<div class="card-top"><span class="tag pdf">PDF</span><svg class="arrow"><use href="#arrow"/></svg></div>
+					<h3>Projet 11</h3>
+					<p>Compte rendu du projet 11.</p>
+				</a>
+			</div>
+		</section>
+
+		<section>
+			<h2 class="section-title">Certifications</h2>
+			<div class="grid">
+				<a class="card" href="./Certif1/Certificat%20-%20CORBIN%20Hugo%20-%2022102026.pdf" target="_blank" rel="noopener noreferrer">
+					<div class="card-top"><span class="tag cert">Certificat</span><svg class="arrow"><use href="#arrow"/></svg></div>
+					<h3>Certification 1</h3>
+					<p>Certificat obtenu le 22/10/2026.</p>
+				</a>
+				<a class="card" href="./Certif2/MD1_CORBIN-Hugo.pdf" target="_blank" rel="noopener noreferrer">
+					<div class="card-top"><span class="tag cert">Certificat</span><svg class="arrow"><use href="#arrow"/></svg></div>
+					<h3>Certification 2</h3>
+					<p>Module MD1 : RGPD.</p>
+				</a>
+			</div>
+		</section>
+
+	</main>
+
+	<footer>
+		<div class="container">© 2026 Hugo CORBIN - BTS SIO</div>
+	</footer>
 
 </body>
 </html>
