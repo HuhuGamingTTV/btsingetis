@@ -6,7 +6,6 @@
     --border: #f0e1e7;
     --accent: #29c4eb;
     --accent-soft: #fde7ef;
-    --shadow-hover: 0 2px 4px rgba(20, 54, 60, 0.06), 0 16px 40px rgba(41, 196, 235, .14);
     --tag-cert: #1d8a52;
 }
 
@@ -111,7 +110,6 @@ section + section {
 
 .card:hover,
 .card:focus-visible {
-    box-shadow: var(--shadow-hover);
     border-color: var(--accent);
 }
 
